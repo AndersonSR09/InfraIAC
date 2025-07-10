@@ -17,7 +17,7 @@ jobs:
       - name: Instalar Terraform
         uses: hashicorp/setup-terraform@v3
         with:
-          terraform_version: 5.17  # Ajuste para a sua versão
+          terraform_version: 5.17.0  # Ajuste para a sua versão
 
       - name: Inicializar Terraform
         run: terraform init
